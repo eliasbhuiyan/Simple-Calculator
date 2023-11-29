@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo.png">
+    <link href="/images/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator | Elias Bhuiyan</title>
+</head>
+<body>
+
+<div class="calculator">
+    <input type="text" id="display" readonly>
+    <button onclick="clearDisplay()">C</button>
+    <button onclick="elias('/')">/</button>
+    <button onclick="elias('%')">%</button>
+    <button onclick="backspace()">⌫</button>
+    <button onclick="elias('7')">7</button>
+    <button onclick="elias('8')">8</button>
+    <button onclick="elias('9')">9</button>
+    <button onclick="elias('-')">-</button>
+    <button onclick="elias('4')">4</button>
+    <button onclick="elias('5')">5</button>
+    <button onclick="elias('6')">6</button>
+    <button onclick="elias('*')">X</button>
+    <button onclick="elias('1')">1</button>
+    <button onclick="elias('2')">2</button>
+    <button onclick="elias('3')">3</button>
+    <button onclick="calculate()">=</button>
+    <button onclick="elias('.')">.</button>
+    <button onclick="elias('0')">0</button>
+    <button onclick="elias('+')">+</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
